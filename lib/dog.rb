@@ -10,6 +10,7 @@ class Dog
   
   def self.all
     @@all.each {|puppy_name| puts puppy_name}
+    @@all
   end
   
   
